@@ -1,0 +1,13 @@
+---
+snakefile: snakefile
+cores: 2
+--latency-wait: 60
+--restart-times: 3
+ref: 
+  "GRCh38_latest_genomic.fna.gz"
+known_sites: 
+  "Homo_sapiens_assembly38.dbsnp138.vcf"
+
+params:
+  bwa:
+    extra_args: ""

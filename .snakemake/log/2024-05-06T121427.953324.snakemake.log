@@ -1,0 +1,11 @@
+Building DAG of jobs...
+MissingInputException in rule gatk_preprocessing in file /home/odette/gcan/workflows/rules/call.smk, line 1:
+Missing input files for rule gatk_preprocessing:
+    output: /home/odette/gcan/results/aligned/SRR8670683.sorted.bam, /home/odette/gcan/results/aligned/SRR8670713.sorted.bam, /home/odette/gcan/results/aligned/SRR8670714.sorted.bam, /home/odette/gcan/results/aligned/SRR8670756.sorted.bam, /home/odette/gcan/results/aligned/SRR8670767.sorted.bam, /home/odette/gcan/results/aligned/SRR8670683.dedupped.bam, /home/odette/gcan/results/aligned/SRR8670713.dedupped.bam, /home/odette/gcan/results/aligned/SRR8670714.dedupped.bam, /home/odette/gcan/results/aligned/SRR8670756.dedupped.bam, /home/odette/gcan/results/aligned/SRR8670767.dedupped.bam, /home/odette/gcan/results/aligned/SRR8670683.recall_data.table, /home/odette/gcan/results/aligned/SRR8670713.recall_data.table, /home/odette/gcan/results/aligned/SRR8670714.recall_data.table, /home/odette/gcan/results/aligned/SRR8670756.recall_data.table, /home/odette/gcan/results/aligned/SRR8670767.recall_data.table, /home/odette/gcan/results/aligned/SRR8670683.recal.bam, /home/odette/gcan/results/aligned/SRR8670713.recal.bam, /home/odette/gcan/results/aligned/SRR8670714.recal.bam, /home/odette/gcan/results/aligned/SRR8670756.recal.bam, /home/odette/gcan/results/aligned/SRR8670767.recal.bam
+    affected files:
+        /home/odette/gcan/results/gatk/Homo_sapiens_assembly38.dbsnp138.vcf
+        /home/odette/gcan/results/aligned/SRR8670714_sorted.bam.bai
+        /home/odette/gcan/results/aligned/SRR8670756_sorted.bam.bai
+        /home/odette/gcan/results/aligned/SRR8670683_sorted.bam.bai
+        /home/odette/gcan/results/aligned/SRR8670713_sorted.bam.bai
+        /home/odette/gcan/results/aligned/SRR8670767_sorted.bam.bai

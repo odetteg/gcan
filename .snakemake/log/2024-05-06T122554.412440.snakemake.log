@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+bwa_map                        1
+download                       1
+gatk_call                      1
+gatk_preprocessing             1
+get_bwa_cmds                   1
+get_ref_and_known_sites        1
+index_ref                      1
+total                          8
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon May  6 12:25:54 2024]
+localrule download:
+    input: /home/odette/gcan/workflows/scripts/download.sh
+    output: /home/odette/gcan/results/data/SRR8670683_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670683_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670713_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670713_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670714_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670714_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670756_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670756_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670767_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670767_R2.fastq.gz, /home/odette/gcan/results/data
+    jobid: 7
+    reason: Missing output files: /home/odette/gcan/results/data/SRR8670713_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670683_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670714_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670683_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670756_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670756_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670767_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670714_R2.fastq.gz, /home/odette/gcan/results/data/SRR8670713_R1.fastq.gz, /home/odette/gcan/results/data/SRR8670767_R1.fastq.gz; Updated input files: /home/odette/gcan/workflows/scripts/download.sh
+    threads: 2
+    resources: tmpdir=/tmp
+
+Skipped removing non-empty directory /home/odette/gcan/results/data
+Terminating processes on user request, this might take some time.

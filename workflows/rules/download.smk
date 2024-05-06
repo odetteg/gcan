@@ -11,6 +11,7 @@ rule download:
         out_dir = DATA_DIR
     params:
         dump_params = ""
+    threads:8
     shell:
         """
         mkdir -p {output.out_dir}

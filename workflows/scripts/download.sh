@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 list_of_accessions="can.txt"
 
 accessions_array=()
